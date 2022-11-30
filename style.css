@@ -1,0 +1,33 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+    background-color: #212126;
+}
+
+
+#canevas-container {
+    width: 100vw;
+    max-width: 100vh;
+    height: 100vw;
+    max-height: 100vh;
+    background-color: wheat;
+    position: relative;
+    background-image: url('https://i.pinimg.com/564x/4e/fd/a0/4efda0a01f9029feee70b1b292e89932.jpg');
+    /* background-image: url('https://i.pinimg.com/564x/ec/f5/9c/ecf59c4cf7bc4981f5ab443840cc1849.jpg'); */
+    /* background-image: url('https://i.pinimg.com/564x/cd/11/4c/cd114ca18b63335ebfb111b87baa35e3.jpg'); */
+    background-size: cover;
+    background-position: center center;
+}
+
+#character {
+    width: 24px;
+    height: 24px;
+    background-color: #212126;
+    position: absolute;
+    border-radius: 120px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+    transition: all ease 120ms;
+    bottom: 0; left: 0; 
+}
